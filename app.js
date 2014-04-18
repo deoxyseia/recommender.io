@@ -13,7 +13,7 @@ app.get('/', function(req, res){
 	
 	console.log(recommender.rCollaborative(perfil_puesto,perfiles_profesionales,2));
 								   	
-	res.send('Cheka la consola =D!');
+	res.send('Cheka la consola, vamos =D!');
 });
 
 app.listen(3000);
