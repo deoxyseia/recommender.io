@@ -18,7 +18,7 @@ app.get('/', function(req, res){
 	var reciResult = recommender.rReciprocity(perfil_puesto,perfiles_profesionales,2);
 	console.log(reciResult);
 								   	
-	res.send('Cheka la consola =D!');
+	res.send('Cheka la consola, vamos =D!');
 });
 
 app.listen(3000);
