@@ -1,6 +1,6 @@
-var result = function(profile, similarity){
+var result = function(profile, score){
 	this.profile = profile;
-	this.similarity = similarity;
+	this.score = score;
 }
 
 module.exports = result;
